@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--<com.example.jiashuai.myapplicationbeisaier.BezierView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--<com.example.jiashuai.myapplicationbeisaier.SpringIndicator-->
+    <!--android:id="@+id/spring_vpi"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="40dp" />-->
+
+
+    <!--<Button-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:onClick="click"-->
+    <!--android:text="start" />-->
+
+
+    <ListView
+        android:id="@+id/mylistview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+    <TextView
+        android:id="@+id/mytv"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@id/mylistview"
+        android:layout_alignParentBottom="true"
+        android:background="@mipmap/ic_launcher"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+    <!--<com.example.jiashuai.myapplicationbeisaier.myview.MyLayout-->
+    <!--android:id="@+id/parlly"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"></com.example.jiashuai.myapplicationbeisaier.myview.MyLayout>-->
+    <TextView
+        android:id="@+id/xxv"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:background="#000000"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="#ffffff"
+        android:textSize="12sp"
+        android:visibility="gone" />
+</RelativeLayout>
